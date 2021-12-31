@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-int main(){
-	char str[128];
-	
-	printf("Type a word: ");
-	fgets(stdin,128,str);
+int main() {
+	char ch[64];
+	printf("Enter message here: ");
+	fgets(ch,64, stdin);
+	puts(ch);
 
-	printf("You typed %s", str);
-
-	return 0;
+	return (0);
 }
