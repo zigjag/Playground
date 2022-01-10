@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo yum check-update -y
+sudo yum update -y
+sudo yum upgrade -y
+sudo updatedb
+date >> /home/$USER/logs/manual_update.log
+

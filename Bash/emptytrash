@@ -1,0 +1,3 @@
+#!/bin/bash
+
+rm -rI /home/$USER/.local/share/Trash/files/*
